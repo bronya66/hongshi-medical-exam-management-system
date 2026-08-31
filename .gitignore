@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.npm/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project runtime data
+backend/logs/
+backend/uploads/
+backend/.pytest_cache/
+
+# Keep repo metadata but ignore local generated data if desired
+# Uncomment if you do not want to track uploaded submissions in Git
+# backend/uploads/
